@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap');
+body{
+  background-image: url("rset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav {
+    background-color: rgb(255, 255, 255);
+    overflow:hidden;
+    margin: -7px;
+
+    
+  }
+  
+  nav ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a {
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 30px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    padding: 15px;
+    display: inline-block;
+  }
+  .mainfont{
+   font-family: poppins;
+   font-weight: 800;
+   font-size: 50px;
+   margin-top: 20px;
+   margin-left: 150px;
+   margin-bottom: 10px;
+   color: black;
+  }
+  nav ul li a:hover {
+    background-color: rgb(216, 12, 12);
+    color: antiquewhite;
+    border-radius: 10px;
+    animation-delay: 3s;
+    
+    
+  }
+  
+  .logo {
+    margin-left: 50px;
+    margin-top: -88px;
+    margin-bottom: 10px;
+  }
+  
+  .logo img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+  }
+  
+  .mainlogo{
+    text-decoration: none;
+    
+  }
+  .formborder{
+    height: 430px;
+    width: 350px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    margin-left: 610px;
+    margin-top: 100px;
+  }
+  .formcontent{
+    font-size: 20px;
+    font-family: poppins;
+    padding-left: 60px;
+    padding-top: 110px;
+  }
+  h3{
+    font-family: poppins;
+    font-size: 30px;
+    margin-left: 125px;
+    padding-top: 10px;
+    margin-bottom: -70px;
+  }
+  button{
+    background-color: rgb(3, 72, 176);
+    color: antiquewhite;
+    border-radius: 5px;
+    font-size: 30px;
+    font-family: poppins;
+    border: none;
+    padding-left: 20;
+    padding-right: 20;
+    margin-top: 25px;
+    margin-left: 48px;
+  }
+  button:hover{
+    background-color: rgb(184, 6, 6);
+    
+  }
+  input{
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    padding-right: 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: poppins;
+    font-size: 11px;
+    border-width: 0.5px;
+  }
